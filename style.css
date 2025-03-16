@@ -40,35 +40,28 @@ body::before {
     position: relative;
 }
 
-.container__conteudo {
+.container__content {
     display: flex;
     align-items: center;
     position: absolute;
     bottom: 0;
 }
 
-.container__informacoes {
+.container__informations {
     flex: 1;
     padding: 20px;
 }
 
-.container__botao {
-    border-radius: 16px;
-    background: #1875E8;
-    padding: 16px 24px;
-    width: 100%;
-    font-size: 24px;
-    font-weight: 700;
-    border: none;
-    margin-top: 16px;
-}
-
-.container__texto {
+.container__text {
     margin: 16px 0 16px 0;
 }
 
-.container__texto-azul {
+.container__text-blue {
     color: #1875E8;
+}
+
+.container__image-robot {
+    width: 47%;
 }
 
 h1 {
